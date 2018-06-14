@@ -13,5 +13,5 @@ IDENTIFICAR A BOLINHA
 - Usar a função de mapeamento do campo para descobrir a posição da bolinha no campo template
 
 INDENTIFICAR OS ROBOS
-- Identificar a direçao e a posição do robo na imagem obtida pela camera, mas nos pixels contidos no campo
+- Identificar a direçao e a posição do robo na imagem obtida pela camera
 - Usar a função de mapeamento do campo modificada para mapear uma posição 7,5 cm a cima no campo template (altura do robo)
