@@ -4,13 +4,18 @@ Projeto Final - PDI
 IDENTIFICAR O CAMPO
 - Remover o efeito barrel da camera
 - Criar um template do campo para pegar as features relevantes(para comparar com os obtidos da imagem teste) -- completo
-- Encontrar e relacionar essas features de forma a mapear esses pontos para os pontos no template (atualmente edges)
-    -> algorimo sendo testado https://people.eecs.berkeley.edu/~malik/cs294/borgefors88.pdf
+- Encontrar e relacionar essas features de forma a mapear esses pontos para os pontos no template (atualmente edges) -- em progresso
+    -> algorimo sendo testado Hierarchical chamfer matching: https://people.eecs.berkeley.edu/~malik/cs294/borgefors88.pdf
+        1) Extrair as bordas -- completo
+        2) Construir a piramide de distancias -- completo
+        3) Escolher os pontos de borda do template para serem usados no poligono
+        4) encontrar no topo da piramide (distancias com a pior resolução) possiveis posições para o campo
+        5) ir descendo na piramide com cada posição afinando suas medidas (devido ao aumento da resolução) e escolher a melhor
 
 IDENTIFICAR A BOLINHA
 - Segmentar o unico objeto laranja dentro do campo
-- Usar a função de mapeamento do campo sem paralax para descobrir a posição da bolinha no campo template
+- Usar a função de mapeamento do campo sem paralax para descobrir a posição da bolinha no campo
 
 INDENTIFICAR OS ROBOS
-- Identificar a direçao e a posição do robo na imagem obtida pela camera
+- Identificar a posição do robo na imagem obtida pela camera
 - Usar a função de mapeamento do campo modificada para mapear uma posição 7,5 cm a cima no campo template (altura do robo)
