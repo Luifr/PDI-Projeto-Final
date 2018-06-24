@@ -8,7 +8,7 @@ IDENTIFICAR O CAMPO
 -> algorimo sendo testado é Hierarchical chamfer matching: https://people.eecs.berkeley.edu/~malik/cs294/borgefors88.pdf
     1) Extrair as bordas -- completo
     2) Construir a piramide de distancias -- completo
-    3) Escolher os pontos de borda do template para serem usados no poligono
+    3) Escolher os pontos de borda do template para serem usados no poligono --completo
     4) encontrar no topo da piramide (distancias com a pior resolução) possiveis posições para o campo
     5) ir descendo na piramide com cada posição afinando suas medidas (devido ao aumento da resolução) e escolher a melhor
 
