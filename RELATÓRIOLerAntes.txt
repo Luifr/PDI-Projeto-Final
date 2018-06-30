@@ -1,0 +1,10 @@
+Resultados:
+    O método é eficiente e talvez daqui a um tempo vai substituir a calibração automática do WARTHOG
+    e dos grupos de robótica da competição.
+    Porém ainda tem muitas coisas a serem feitas, como calibrar a câmera e adicionar parametros como
+    a orientação da câmera (ela sempre está perto de perpendicular ao châo, mas ainda interfere).
+    Mas como esse não é o fim dele para mim eu vou transferir ele pro meu Github (Gui-USP) e continuar desenvolvendo ele.
+    Desculpa por entregar depois da hora, o relatório em txt, e o código com poucos comentários
+    O README tem detalhado o que deu para fazer até agora
+
+Para rodar o trabalho é 'python VSSAffineEq.py Exemplo.png'

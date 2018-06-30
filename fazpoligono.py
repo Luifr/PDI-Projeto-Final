@@ -37,4 +37,8 @@ def campoVSS():
 
     rac = np.fromfunction(lambda i, j: i*(h//2+acr*np.sin(np.pi/acpqr*(j+acpqr-acpq//2))) + (1-i)*(w-acw-aw+acr+acr*np.cos(np.pi/acpqr*(j+acpqr-acpq//2))), (2, acpq)) # left area circle
 
-    return np.hstack((ml,laul,lall,lavl,raul,rall,ravl,mc,lac,rac))
+    v = np.hstack((ml,laul,lall,lavl,raul,rall,ravl,mc,lac,rac))
+
+    v[1]-=h/2
+    v[0]-=w/2
+    return v

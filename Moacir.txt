@@ -1,9 +1,0 @@
-Oi Moacir,
-  Para rodar o trabalho é 'python VSSAffineEq.py Exemplo.png'
-  Ele ainda não está completo e nem comentado, mas hoje a noite deve estar comentado e quase completo.
-  O quase completo é porque para terminar ele precisa calibrar a camera,
-  e para isso precisa do espaço do warthog que só deu pra conseguir esse sábado.
-  Mas se desse para esperar até o final do dia para corrigir o trabalho ia ajudar já que ele está sem comentários e com partes faltando.
-  
-Obrigado,
-  Guilherme Soares Gama
